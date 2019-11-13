@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  height: 50vh;
+  width: 100%;
+  background-image: url('sunflowers.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+  opacity: 1;
+}
+
+.presentation {
+  align-self: center;
+}
+
+.profile-pic {
+  height: 200px;
+  border-radius: 100%;
+  border-color: 1px white;
+}
+
+.nav-img-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+main div {
+  height: 50px;
+}
+
+main div:nth-child(even) {
+  background-color: #F4F4F4;
+}
