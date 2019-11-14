@@ -1,43 +1,127 @@
 * {
   margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
 }
 
 p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+header h1 {
+  text-transform: lowercase;
+  color: white;
+  font-size: 3em;
+}
+
+header h3 {
+  text-transform: uppercase;
+  color: white;
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+h2 {
+  background-color: #FA382F;
+  display: inline;
+  color: white;
+  padding: 6px;
+  font-size: 2em;
+  text-transform: uppercase;
+  line-height: 3em;
+}
+
+
+/* HEADER/HERO */
+
+.hero-wrapper {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
 }
 
 header {
-  height: 50vh;
+  height: 420px;
   width: 100%;
-  background-image: url('sunflowers.jpg');
+  background-image: url('blue-background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  display: flex;
-  justify-content: space-evenly;
-  opacity: 1;
 }
 
 .presentation {
   align-self: center;
-}
-
-.profile-pic {
-  height: 200px;
-  border-radius: 100%;
-  border-color: 1px white;
+  width: 30%;
 }
 
 .nav-img-wrapper {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  align-items: flex-end;
 }
 
-main div {
-  height: 50px;
+nav {
+  margin-top: 30px;
+  margin-bottom: 115px;
+  display: flex;
+  justify-content: flex-end;
 }
 
-main div:nth-child(even) {
+.profile-pic {
+  height: 240px;
+  border-radius: 100%;
+  border: white solid;
+}
+
+.icon-img {
+  width: 24px;
+}
+
+.icon-link {
+  padding: 13px;
+  border-radius: 100%;
+  border: white solid 1.5px;
+  margin: 6px;
+  width: 24px;
+  height: 24px;
+}
+
+
+/* MAIN */
+
+main {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.container {
+  height: auto;
+  padding: 6em;
+}
+
+.container:nth-child(odd) {
   background-color: #F4F4F4;
+}
+
+.inner-content {
+  width: 60%;
+  margin: 0 auto;
+}
+
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-color: #072BCE;
+  height: 300px;
+  margin: 0 auto;
+}
+
+footer h2 {
+  background-color: unset;
 }
