@@ -39,21 +39,20 @@
     text-transform: uppercase;
   }
   
-  a {
+  a,
+  a:visited {
     text-decoration: none;
+    color: inherit;
   }
   
   a:hover {
     text-decoration: underline;
   }
   
-  a:visited {
-    color: unset;
-  }
-  
   .inner-content {
     width: 60%;
     margin: 0 auto;
+    margin-top: 3em;
   }
   /* HEADER/HERO */
   
