@@ -6,13 +6,15 @@
   }
   
   p {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6rem;
+    font-weight: 300;
   }
   
   h1 {
     text-transform: lowercase;
     color: white;
-    font-size: 3em;
+    font-size: 3rem;
     margin: 0;
   }
   
@@ -21,19 +23,19 @@
     display: inline;
     color: white;
     padding: 6px;
-    font-size: 1.4em;
+    font-size: 1.4rem;
     text-transform: uppercase;
-    line-height: 3em;
+    line-height: 3rem;
   }
   
   h3 {
     color: #FA382F;
     text-transform: uppercase;
-    font-size: 1.2em;
+    font-size: 1.2rem;
   }
   
   h4 {
-    font-size: 0.9em;
+    font-size: 0.9rem;
     color: #FA382F;
     display: inline;
     text-transform: uppercase;
@@ -42,7 +44,7 @@
   h5 {
     color: white;
     text-transform: lowercase;
-    font-size: 1.6em;
+    font-size: 1.6rem;
     margin: 0;
   }
   
@@ -59,7 +61,7 @@
   .inner-content {
     width: 60%;
     margin: 0 auto;
-    margin-top: 2em;
+    margin-top: 2rem;
   }
   /* HEADER/HERO */
   
@@ -132,7 +134,7 @@
   
   section {
     height: auto;
-    padding: 2.5em;
+    padding: 2.5rem;
   }
   
   section:nth-child(odd) {
@@ -140,7 +142,7 @@
   }
   
   .pitch {
-    padding-top: 4em;
+    padding-top: 4rem;
   }
   
   .projects-wrapper {
@@ -163,7 +165,8 @@
     text-align: left;
   }
   
-  .project-container img {
+  .project-container img,
+  .thought-container img {
     width: 100%;
   }
   
@@ -173,16 +176,16 @@
     display: inline;
   }
   
-  .built-in {
+  .tags {
     display: flex;
     flex-wrap: wrap;
   }
   
-  .built-in p {
+  .tags p {
     background-color: #FDDFE7;
     margin: 15px 4px 4px 0px;
     padding: 2px 9px;
-    font-size: 0.7em;
+    font-size: 0.9em;
   }
   
   .other-projects .project-container {
@@ -213,6 +216,13 @@
   .skills-container {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .skills-container div {
+    flex-basis: 30%;
+    margin-bottom: 2rem;
   }
   
   .for-more-wrapper {
@@ -224,6 +234,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 1.5rem;
   }
   
   .for-more .icon-img {
@@ -242,7 +253,7 @@
     text-align: center;
     background-color: #072BCE;
     height: 300px;
-    padding-top: 1em;
+    padding-top: 1rem;
   }
   
   footer h2,
@@ -250,3 +261,6 @@
     background-color: unset;
     color: white;
   }
+  /* MEDIA QUIERIES */
+  /* tablet */
+  /* mobile */
