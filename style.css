@@ -48,6 +48,10 @@
     margin: 0;
   }
   
+  .red-text {
+    color: #FA382F;
+  }
+  
   a,
   a:visited {
     text-decoration: none;
@@ -59,7 +63,7 @@
   }
   
   .inner-content {
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
     margin-top: 2rem;
   }
@@ -74,7 +78,7 @@
   }
   
   .hero-wrapper {
-    width: 60%;
+    width: 70%;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -133,7 +137,6 @@
   }
   
   section {
-    height: auto;
     padding: 2.5rem;
   }
   
@@ -217,7 +220,10 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    align-items: center;
+  }
+  
+  .skills-container p {
+    margin: 0;
   }
   
   .skills-container div {
@@ -262,5 +268,51 @@
     color: white;
   }
   /* MEDIA QUIERIES */
-  /* tablet */
-  /* mobile */
+  
+  @media (min-width: 481px) and (max-width: 740px) {
+    .inner-content {
+      width: 100%;
+    }
+    .profile-pic {
+      height: 145px;
+    }
+    nav {
+      margin-bottom: 180px;
+    }
+    .project-container {
+      max-width: 100%;
+    }
+    .thought-container {
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .inner-content {
+      width: 100%;
+    }
+    .hero-wrapper {
+      margin: 0 10px;
+    }
+    .profile-pic {
+      height: 130px;
+    }
+    nav {
+      margin-bottom: 200px;
+    }
+    h1 {
+      font-size: 2rem;
+    }
+    .pitch {
+      padding-top: 1rem;
+    }
+    .project-container {
+      max-width: 100%;
+    }
+    .thought-container {
+      width: 100%;
+    }
+    .skills-container {
+      flex-direction: column;
+    }
+  }
