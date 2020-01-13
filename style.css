@@ -187,13 +187,18 @@
   .tags p {
     background-color: #FDDFE7;
     margin: 15px 4px 4px 0px;
-    padding: 2px 9px;
-    font-size: 0.9em;
+    padding: 1px 9px;
+    font-size: 0.8em;
+    border-radius: 2px;
   }
   
   .other-projects .project-container {
     max-width: unset;
     margin-bottom: 20px;
+  }
+  
+  .thoughts h4 {
+    color: #202020;
   }
   
   .thoughts-wrapper {
