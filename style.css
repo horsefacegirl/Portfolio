@@ -193,7 +193,7 @@
   }
   
   .other-projects .project-container {
-    max-width: unset;
+    width: 100%;
     margin-bottom: 20px;
   }
   
@@ -285,7 +285,7 @@
       margin-bottom: 180px;
     }
     .project-container {
-      max-width: 100%;
+      width: 100%;
     }
     .thought-container {
       width: 100%;
@@ -312,7 +312,7 @@
       padding-top: 1rem;
     }
     .project-container {
-      max-width: 100%;
+      width: 100%;
     }
     .thought-container {
       width: 100%;
